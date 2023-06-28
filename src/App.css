@@ -1,6 +1,6 @@
 html{
-  background-image: url(https://as2.ftcdn.net/v2/jpg/02/65/96/33/1000_F_265963339_5ESvczPhwgZ35TSLAqAIifqYpCrw6eH1.jpg);
-    background-repeat:repeat;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-colorido-pascua_23-2148059795.jpg?w=1060&t=st=1687877733~exp=1687878333~hmac=9082af1d6fa48cf60b829d2c48d3531c84f1680dc0e5f552da56ae6a0a2c7a3c);
+    background-size: cover;
 }
 
 .App{
@@ -11,21 +11,27 @@ html{
     align-items: center;
     
   }
+  
 td {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
+  
   padding: 20px;
   margin: 80px;
-  background-color: #f7c0d4;
-  border: 2px solid #68c1c9;
+  background-color: #f7c0d4cf;
+  border: 4px solid #68c1c9;
   
 }
+td:hover{
+  background-color: #f7c0d4;
+}
+
 th{
   padding: 20px;
   margin: 80px;
-  background-color: #f29bc1;
-  border: 8px solid #ffd400;
+  background-color: #f29bc1e5;
+  border: 8px solid #ffd500ae;
 
 
 
@@ -34,10 +40,12 @@ button{
   padding: 20px;
   font-size: large;
   margin: 15px;
-  border-color: #9697c0;
+  border: 5px solid #9697c0;
   border-radius: 15px;
   background-color:#68c1c9 ;
-  transition: 2s;
+}
+button:hover{
+  background-color:#5aa8af ;
 }
 
 
