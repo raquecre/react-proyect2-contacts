@@ -1,4 +1,5 @@
 html{
+  
     background-image: url(https://img.freepik.com/foto-gratis/fondo-colorido-pascua_23-2148059795.jpg?w=1060&t=st=1687877733~exp=1687878333~hmac=9082af1d6fa48cf60b829d2c48d3531c84f1680dc0e5f552da56ae6a0a2c7a3c);
     background-size: cover;
 }
@@ -9,6 +10,7 @@ html{
     align-content: flex-start;
     justify-content: flex-end;
     align-items: center;
+    font-size: large;
     
   }
   
@@ -16,7 +18,7 @@ td {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
-  
+  font-size: large;
   padding: 20px;
   margin: 80px;
   background-color: #f7c0d4cf;

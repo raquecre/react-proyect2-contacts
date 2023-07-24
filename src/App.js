@@ -15,7 +15,7 @@ function App() {
     console.log(contactsNonVisibles);
  */ const randomPosition = Math.floor(Math.random() * contactsJSON.length);
     const randomContact = contactsJSON[randomPosition];
-      contacts.map((contact) => {
+      contacts.forEach((contact) => {
        let uploadContacts;
  
        if (randomContact.id !== contact.id) {
@@ -82,11 +82,11 @@ function App() {
           {contacts.map((contact) => {
             return (
               <tr key={contact.id}>
-                <td> <img src={contact.pictureUrl} alt={contact.name} /></td>
+                <td> <img  src={contact.pictureUrl} alt={contact.name} /></td>
                 <td> {contact.name} </td>
                 <td> {contact.popularity} </td>
-                <td>{(contact.wonOscar) ? <img src='https://as1.ftcdn.net/v2/jpg/03/08/21/18/1000_F_308211869_JZ6kxlkTWHcpjLpkxFrIOLOfptt5Jv2S.jpg' /> : <img src='https://cdn.pixabay.com/photo/2013/07/13/10/27/dislike-157252_1280.png' />}</td>
-                <td>{(contact.wonEmmy) ? <img src='https://magnetrononline.com/wp-content/uploads/2018/02/Emmy.jpg' /> : <img src='https://cdn.pixabay.com/photo/2013/07/13/10/27/dislike-157252_1280.png' />}</td>
+                <td>{(contact.wonOscar) ? <img alt="" src='https://as1.ftcdn.net/v2/jpg/03/08/21/18/1000_F_308211869_JZ6kxlkTWHcpjLpkxFrIOLOfptt5Jv2S.jpg' /> : <img src='https://cdn.pixabay.com/photo/2013/07/13/10/27/dislike-157252_1280.png' />}</td>
+                <td>{(contact.wonEmmy) ? <img alt="" src='https://magnetrononline.com/wp-content/uploads/2018/02/Emmy.jpg' /> : <img alt="" src='https://cdn.pixabay.com/photo/2013/07/13/10/27/dislike-157252_1280.png' />}</td>
                 <td> <button onClick={() => deleteContact(contact)}>Delete</button> </td>
               </tr>
 
