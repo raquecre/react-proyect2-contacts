@@ -1,33 +1,24 @@
-# AddRandomContact
+# Contactos
 
-<!-- STORY -->
+Gestión de datos personales almacenados en una API. Se trata de aprender a gestionar cómo se pintas los datos en pantalla, y que estos sean mutables, siendo capaces de poder cambiar el orden de presentación, tanto por orden alfabético como por puntación de popularidad.
 
-## Introduction
+El enlace al proyecto desplegado: [Contactos](https://contacts-raquecre.netlify.app/).
 
-AddRandomContact is an easy-to-use component.
+## Previsualización
 
-## Usage
+![alt text](https://i.imgur.com/L1HucsI.png)
 
-```javascript
-import { AddRandomContact } from 'some-package-name';
-```
 
-## Example use
 
-```javascript
-const myPage = props => {
-  return (
-    <main>
-      <AddRandomContact />
-    </main>
-  );
-};
-```
+### Style 
 
-## Properties
+Realizado con CSS puro.
 
-- `className` - is the class name of the component
 
-| propName  | propType | defaultValue | isRequired |
-| --------- | -------- | ------------ | ---------- |
-| className | string   | -            | -          |
+
+## Autora
+
+  - **Raquel Crespo** - *Realizado durante el curso en [gamma tech School](https://www.gammatech.school/).* 
+    
+
+
